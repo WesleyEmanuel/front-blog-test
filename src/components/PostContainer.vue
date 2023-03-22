@@ -41,7 +41,6 @@ export default {
     <main class="my-7">
       <p>{{ post.body[0].toUpperCase() + post.body.substring(1) }}</p>
     </main>
-    <hr />
     <footer class="mt-7 flex justify-between items-center">
       <div class="flex items-center gap-3">
         <div class="w-8 h-8 rounded-full bg-slate-400">
@@ -54,7 +53,7 @@ export default {
           </p>
         </div>
       </div>
-      <div>
+      <div class="hidden md:block">
         <p>{{ comments.length + " comments" }}</p>
       </div>
     </footer>
