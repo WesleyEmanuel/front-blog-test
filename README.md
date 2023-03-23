@@ -1,29 +1,40 @@
-# blog-test
+<h1 align="center">Desafio Post Blog</h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+## 📸 Screenshots da aplicação:
 
-## Recommended IDE Setup
+</br>
+<p align="center">
+  <a href="linkedin.com/in/wesley-emanuel-alves-de-oliveira-7b05781b9">Linkedin</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a>Email: dev.wesleyalves@gmail.com</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <span>(85) 98514-1683</span>
+</p> </br>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### 📝 Sobre o projeto:
+O desafio era fazer o front-end para exibição de posts de um blog e ao clicar em um post, trazer os comentários associados.
+A solução foi trazer cards dispostos na tela em colunas (fiz isso com o Grid do CSS) e ao clicar em cada post abrir um modal
+com os seus comentários. Uma solução simples e de fácil usabilidade. Para esse desafio eu utilizei o Vue 3, além do framework 
+TailwindCss para estilização e ajustes de resposividade. Além disso utilizei o Vuetify para facilitar a criação dos modals 
+de comentários. Para conexão com a API utilizei o Axios.
 
-## Customize configuration
+## 💻 Tecnologias utilizadas:
+- VueJs
+- Javascript
+- HTML
+- CSS
+- Tailwind CSS
+- Vuetify
+- Axios
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 🏃🏻‍♂️ Como executar o Projeto
 
-## Project Setup
-
-```sh
+### 🔧 Instalando as Dependências:
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 🔥 Executar a aplicação VueJs em ambiente de desenvolvimento:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
