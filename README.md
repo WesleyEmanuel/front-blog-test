@@ -1,6 +1,13 @@
 <h1 align="center">Desafio Post Blog</h1>
 
 ## 📸 Screenshots da aplicação:
+<div>
+  <img style="width: 250px" src="./public/blog-responsive-home-screenshot.png" alt="home"/>
+  <img style="width: 750px" src="./public/blog-home-screenshot.png" alt="home"/>
+  </br>
+  <img style="width: 250px" src="./public/blog-responsive-comments-screenshot.png" alt="home"/>
+  <img style="width: 750px" src="./public/blog-comments-screenshot.png" alt="home"/>
+</div>
 
 </br>
 <p align="center">
