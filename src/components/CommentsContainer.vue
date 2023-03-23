@@ -20,9 +20,13 @@ export default {
       />
     </v-card-text>
 
-    <div class="w-3/5 mx-auto m-3">
+    <div class="mx-auto m-3">
       <v-card-actions>
-        <slot name="actions"></slot>
+        <div
+          class="fixed top-[-1.7rem] right-[-1.5rem] bg-red w-[2rem] h-[2rem] rounded-[50%]"
+        >
+          <slot name="actions"></slot>
+        </div>
       </v-card-actions>
     </div>
   </v-card>
@@ -30,7 +34,7 @@ export default {
 
 <style>
 .comments-card::-webkit-scrollbar {
-  width: 15px; /* width of the entire scrollbar */
+  width: 15px;
 }
 .comments-card::-webkit-scrollbar-track {
   background: #24232b;

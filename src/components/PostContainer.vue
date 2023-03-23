@@ -32,7 +32,7 @@ export default {
 </script>
 <template>
   <div
-    class="sm mx-auto px-10 py-20 shadow-sm shadow-violet-400 rounded-md text-white cursor-pointer hover:translate-y-[-5px] transition duration-150"
+    class="sm mx-auto px-10 py-20 border-l-4 shadow-sm hover:shadow-violet-400 rounded-md text-white cursor-pointer hover:translate-y-[-5px] transition duration-150"
     @click="$emit('openCommentsPost', { id: post.id, comments })"
   >
     <header class="mb-4 text-2xl font-bold text-violet-400">
@@ -48,7 +48,7 @@ export default {
         </div>
         <div>
           <p>{{ userDetails && userDetails.name }}</p>
-          <p class="italic font-light">
+          <p class="italic font-extralight">
             {{ userDetails && userDetails.email }}
           </p>
         </div>

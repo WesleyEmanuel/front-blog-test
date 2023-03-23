@@ -13,7 +13,7 @@ body {
   background-color: #24232b;
 }
 body::-webkit-scrollbar {
-  width: 15px; /* width of the entire scrollbar */
+  width: 15px;
 }
 
 body::-webkit-scrollbar-track {
